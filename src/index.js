@@ -23,11 +23,11 @@ root.render(
 	</BrowserRouter>
 );
 
-root.render(
-	<React.StrictMode>
-		<App />
-	</React.StrictMode>
-);
+// root.render(
+// 	<React.StrictMode>
+// 		<App />
+// 	</React.StrictMode>
+// );
 // const router = createBrowserRouter([
 // 	{
 // 		path: "/",
