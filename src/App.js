@@ -11,7 +11,7 @@ import ProfilePage from "./pages/ProfilePage";
 import PetPage from "./pages/PetPage";
 
 import React from "react";
-import { Route, Switch, Link } from "react-router-dom";
+import { Route, Routes, Link } from "react-router-dom";
 function App() {
 	return (
 		<div className="App">
@@ -20,7 +20,7 @@ function App() {
 			<Services />
 			<About />
 			<Footer />
-			<Switch>
+			<Routes>
 				<Route exact path="/">
 					<App />
 				</Route>
@@ -36,7 +36,7 @@ function App() {
 				<Route path="/petpage">
 					<PetPage />
 				</Route>
-			</Switch>
+			</Routes>
 		</div>
 	);
 }
