@@ -12,15 +12,14 @@ import PetPage from "./pages/PetPage";
 
 import { HashRouter, Route } from "react-router-dom";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-	<HashRouter>
-		<Route path="/" component={App} />
-		<Route path="/login" component={LoginPage} />
-		<Route path="/appointmentForm" component={AppointmentForm} />
-		<Route path="/profilePage" component={ProfilePage} />
-		<Route path="/petpage" component={PetPage} />
-	</HashRouter>
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+ReactDOM.render(
+	<React.StrictMode>
+		<HashRouter>
+			<App />
+		</HashRouter>
+	</React.StrictMode>,
+	document.getElementById("root")
 );
 
 // root.render(
