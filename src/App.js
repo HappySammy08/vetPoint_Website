@@ -20,23 +20,6 @@ function App() {
 			<Services />
 			<About />
 			<Footer />
-			<Routes>
-				<Route exact path="/">
-					<ProfilePage />
-				</Route>
-				<Route path="/login">
-					<LoginPage />
-				</Route>
-				<Route path="/appointmentform">
-					<AppointmentForm />
-				</Route>
-				<Route path="/profilepage">
-					<profilePage />
-				</Route>
-				<Route path="/petpage">
-					<PetPage />
-				</Route>
-			</Routes>
 		</div>
 	);
 }
