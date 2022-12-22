@@ -2,7 +2,6 @@
 import banner from "../img/web_banner.jpg";
 
 import React from "react";
-import "../css/home.css";
 import Navigation from "./Navigation";
 const Header = () => {
 	return (

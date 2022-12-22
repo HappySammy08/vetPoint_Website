@@ -10,8 +10,11 @@ import AppointmentForm from "./pages/AppointmentForm";
 import ProfilePage from "./pages/ProfilePage";
 import PetPage from "./pages/PetPage";
 
+import "../css/home.css";
+
 import React from "react";
 import { Route, Routes, Link } from "react-router-dom";
+
 function App() {
 	return (
 		<div className="App">

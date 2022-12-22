@@ -4,8 +4,6 @@ import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
 import moment from "moment";
 
-// import "../css/schedule.css";
-
 import { FaCheckCircle } from "react-icons/fa";
 const Schedule = () => {
 	const [dateState, setDateState] = useState(new Date());

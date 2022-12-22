@@ -2,9 +2,6 @@ import React from "react";
 import SimpleImageSlider from "react-simple-image-slider";
 
 import { FaMapMarkerAlt, FaPhone, FaMailBulk } from "react-icons/fa";
-import poster from "../img/poster_1.jpg";
-import "../css/home.css";
-import Map from "./Map";
 
 import poster_1 from "../img/poster_1.jpg";
 import poster_2 from "../img/poster_2.jpg";
