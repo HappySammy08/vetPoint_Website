@@ -6,9 +6,7 @@ import Footer from "./components/Footer";
 
 /* Pages */
 import LoginPage from "./pages/LoginPage";
-import AppointmentForm from "./pages/AppointmentForm";
 import ProfilePage from "./pages/ProfilePage";
-import PetPage from "./pages/PetPage";
 
 import "../css/home.css";
 

@@ -5,17 +5,14 @@ import reportWebVitals from "./reportWebVitals";
 
 import "./index.css";
 import App from "./App";
-import LoginPage from "./pages/LoginPage";
-import AppointmentForm from "./pages/AppointmentForm";
-import ProfilePage from "./pages/ProfilePage";
-import PetPage from "./pages/PetPage";
-
 import { HashRouter } from "react-router-dom";
 
 ReactDOM.render(
-	<HashRouter>
-		<App />
-	</HashRouter>,
+	<React.StrictMode>
+		<HashRouter>
+			<App />
+		</HashRouter>
+	</React.StrictMode>,
 
 	document.getElementById("root")
 );
