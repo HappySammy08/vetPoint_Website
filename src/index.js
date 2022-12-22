@@ -13,11 +13,10 @@ import PetPage from "./pages/PetPage";
 import { HashRouter } from "react-router-dom";
 
 ReactDOM.render(
-	<React.StrictMode>
-		<HashRouter>
-			<App />
-		</HashRouter>
-	</React.StrictMode>,
+	<HashRouter>
+		<App />
+	</HashRouter>,
+
 	document.getElementById("root")
 );
 // const root = ReactDOM.createRoot(document.getElementById("root"));
