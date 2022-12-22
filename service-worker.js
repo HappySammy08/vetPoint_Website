@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/vetPoint_Website/precache-manifest.6e3ffd6f9a35ea8612b00c9132fe4a51.js"
+  "/vetpoint_Website/precache-manifest.a5f755c0ce25da50cf7543227fbb1bbf.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/vetPoint_Website/index.html", {
+workbox.routing.registerNavigationRoute("/vetpoint_Website/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
