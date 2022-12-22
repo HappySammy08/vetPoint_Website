@@ -14,11 +14,20 @@ import { BrowserRouter, Route } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
+	<BrowserRouter basename={process.env.PUBLIC_URL}>
+		<Route path="/" component={App} />
+		<Route path="/login" component={LoginPage} />
+		<Route path="/appointmentForm" component={AppointmentForm} />
+		<Route path="/profilePage" component={ProfilePage} />
+		<Route path="/petpage" component={PetPage} />
+	</BrowserRouter>
+);
+
+root.render(
 	<React.StrictMode>
 		<App />
 	</React.StrictMode>
 );
-
 // const router = createBrowserRouter([
 // 	{
 // 		path: "/",
@@ -43,16 +52,6 @@ root.render(
 // ]);
 // const root = ReactDOM.createRoot(document.getElementById("root"));
 // root.render(<RouterProvider router={router} />);
-
-{
-	/* <BrowserRouter basename={process.env.PUBLIC_URL}>
-	<Route path="/" component={App} />
-	<Route path="/login" component={LoginPage} />
-	<Route path="/appointmentForm" component={AppointmentForm} />
-	<Route path="/profilePage" component={ProfilePage} />
-	<Route path="/petpage" component={PetPage} />
-</BrowserRouter>; */
-}
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
