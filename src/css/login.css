@@ -1,0 +1,103 @@
+.loginWrapper {
+	width: calc(100%);
+	height: calc(100vh);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	overflow: hidden;
+}
+
+.loginForm {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.login_webName {
+	text-align: center;
+	color: #6a1c1b;
+}
+.login_webName b {
+	font-size: 5rem;
+}
+
+.login_webName span b {
+	font-size: 1.5rem;
+}
+
+.login_logo {
+	position: relative;
+	width: 150px;
+	height: 100px;
+	z-index: 1;
+}
+
+.login_logo img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.loginFormWrapper {
+	position: relative;
+	z-index: 0;
+	background-color: #6a1c1b;
+	width: calc(350px - 6%);
+	height: 300px;
+	padding: 3%;
+	text-align: left;
+	color: #fff;
+	border-radius: 25px;
+}
+
+.loginFormWrapper b {
+	display: block;
+	width: calc(100% - 10%);
+	padding: 2% 5%;
+	font-size: 1.2rem;
+}
+
+.loginForm form {
+	width: calc(100% - 6%);
+	padding: 3%;
+}
+
+.loginForm form input {
+	border: 1px solid #e1e1e6;
+	width: calc(100% - 10px - 2%);
+	height: 40px;
+	padding-left: 10px;
+	margin: 5% 1%;
+	border-radius: 25px;
+	background-color: rgba(184, 101, 95, 255);
+	border: none;
+}
+
+.loginForm form input::placeholder {
+	color: #fff;
+}
+
+.loginForm form button {
+	width: calc(100% - 2%);
+	height: fit-content;
+	padding: 3% 1%;
+	margin: 3% 1%;
+	background-color: rgba(184, 101, 95, 255);
+	color: #fff;
+	border: none;
+	font-size: 1rem;
+}
+
+.loginWrapper .cat_bg,
+.loginWrapper .dog_bg {
+	width: 300px;
+	height: 100vh;
+	background-position: bottom;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
