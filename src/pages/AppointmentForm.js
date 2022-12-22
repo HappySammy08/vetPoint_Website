@@ -5,8 +5,6 @@ import Form from "../components/Forms";
 
 import Footer from "../components/Footer";
 
-import "../css/styles.css";
-
 const AppointmentForm = () => {
 	return (
 		<div>

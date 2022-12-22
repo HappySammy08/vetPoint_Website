@@ -2,7 +2,6 @@ import React from "react";
 import Navigation from "../components/Navigation";
 import Login from "../components/Login";
 
-import "../css/styles.css";
 const LoginPage = () => {
 	return (
 		<div>
