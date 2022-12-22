@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "18dfc83f0355c6c3ef86",
+    "revision": "729f95dccd862728ab0c",
     "url": "/vetpoint_Website/static/css/main.23a7227a.chunk.css"
   },
   {
-    "revision": "18dfc83f0355c6c3ef86",
-    "url": "/vetpoint_Website/static/js/main.18dfc83f.chunk.js"
+    "revision": "729f95dccd862728ab0c",
+    "url": "/vetpoint_Website/static/js/main.729f95dc.chunk.js"
   },
   {
     "revision": "e8a858b4d510172b3b18",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/vetpoint_Website/static/media/avatar_example.548a659c.png"
   },
   {
-    "revision": "1837afd973a058a80a92e8ca3cef330f",
+    "revision": "05157254578a8415315b74bfff447539",
     "url": "/vetpoint_Website/index.html"
   }
 ];
