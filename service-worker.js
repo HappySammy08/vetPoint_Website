@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/vetpoint_Website/precache-manifest.f139ba7b12bcfbd88c8810d13cb2f760.js"
+  "/vetpoint_Website/precache-manifest.73dc14604c40785c5a0dbdfb8c6b0d1e.js"
 );
 
 workbox.clientsClaim();
