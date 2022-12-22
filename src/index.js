@@ -10,38 +10,43 @@ import AppointmentForm from "./pages/AppointmentForm";
 import ProfilePage from "./pages/ProfilePage";
 import PetPage from "./pages/PetPage";
 
-import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 
-const router = createBrowserRouter([
-	{
-		path: "/",
-		element: <App />,
-	},
-	{
-		path: "/appointmentForm",
-		element: <AppointmentForm />,
-	},
-	{
-		path: "/login",
-		element: <LoginPage />,
-	},
-	{
-		path: "/profilepage",
-		element: <ProfilePage />,
-	},
-	{
-		path: "/petpage",
-		element: <PetPage />,
-	},
-]);
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<RouterProvider router={router} />);
+// const router = createBrowserRouter([
+// 	{
+// 		path: "/",
+// 		element: <App />,
+// 	},
+// 	{
+// 		path: "/appointmentForm",
+// 		element: <AppointmentForm />,
+// 	},
+// 	{
+// 		path: "/login",
+// 		element: <LoginPage />,
+// 	},
+// 	{
+// 		path: "/profilepage",
+// 		element: <ProfilePage />,
+// 	},
+// 	{
+// 		path: "/petpage",
+// 		element: <PetPage />,
+// 	},
+// ]);
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(<RouterProvider router={router} />);
 
-// {
-// 	/* <React.StrictMode>
-// 		<App />
-// 	</React.StrictMode> */
-// }
+ReactDOM.render(
+	<BrowserRouter>
+		<Route path="/" component={App} />
+		<Route path="/login" component={LoginPage} />
+		<Route path="/appointmentForm" component={AppointmentForm} />
+		<Route path="/profilePage" component={ProfilePage} />
+		<Route path="/petpage" component={PetPage} />
+	</BrowserRouter>,
+	document.getElementById("root")
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
