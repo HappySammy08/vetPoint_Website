@@ -1,12 +1,12 @@
 {
   "main.css": "/vetpoint_Website/static/css/main.23a7227a.chunk.css",
-  "main.js": "/vetpoint_Website/static/js/main.658ae806.chunk.js",
-  "main.js.map": "/vetpoint_Website/static/js/main.658ae806.chunk.js.map",
+  "main.js": "/vetpoint_Website/static/js/main.f424e9f7.chunk.js",
+  "main.js.map": "/vetpoint_Website/static/js/main.f424e9f7.chunk.js.map",
   "static/js/1.e8a858b4.chunk.js": "/vetpoint_Website/static/js/1.e8a858b4.chunk.js",
   "static/js/1.e8a858b4.chunk.js.map": "/vetpoint_Website/static/js/1.e8a858b4.chunk.js.map",
   "static/css/2.c2809b86.chunk.css": "/vetpoint_Website/static/css/2.c2809b86.chunk.css",
-  "static/js/2.248e3155.chunk.js": "/vetpoint_Website/static/js/2.248e3155.chunk.js",
-  "static/js/2.248e3155.chunk.js.map": "/vetpoint_Website/static/js/2.248e3155.chunk.js.map",
+  "static/js/2.df8f9d1e.chunk.js": "/vetpoint_Website/static/js/2.df8f9d1e.chunk.js",
+  "static/js/2.df8f9d1e.chunk.js.map": "/vetpoint_Website/static/js/2.df8f9d1e.chunk.js.map",
   "runtime~main.js": "/vetpoint_Website/static/js/runtime~main.a3cce34c.js",
   "runtime~main.js.map": "/vetpoint_Website/static/js/runtime~main.a3cce34c.js.map",
   "static/media/logo_withColor.png": "/vetpoint_Website/static/media/logo_withColor.7e4cb709.png",
@@ -22,9 +22,9 @@
   "static/media/cat_bg.png": "/vetpoint_Website/static/media/cat_bg.b4f1c0a0.png",
   "static/media/dog_bg.png": "/vetpoint_Website/static/media/dog_bg.d4ee091c.png",
   "static/media/avatar_example.png": "/vetpoint_Website/static/media/avatar_example.548a659c.png",
-  "static/css/2.c2809b86.chunk.css.map": "/vetpoint_Website/static/css/2.c2809b86.chunk.css.map",
   "static/css/main.23a7227a.chunk.css.map": "/vetpoint_Website/static/css/main.23a7227a.chunk.css.map",
+  "static/css/2.c2809b86.chunk.css.map": "/vetpoint_Website/static/css/2.c2809b86.chunk.css.map",
   "index.html": "/vetpoint_Website/index.html",
-  "precache-manifest.61dd746b56462b8cba3fc9d96a3284ce.js": "/vetpoint_Website/precache-manifest.61dd746b56462b8cba3fc9d96a3284ce.js",
+  "precache-manifest.c9ff42a8c3515742d6d8524dce8a5458.js": "/vetpoint_Website/precache-manifest.c9ff42a8c3515742d6d8524dce8a5458.js",
   "service-worker.js": "/vetpoint_Website/service-worker.js"
 }
