@@ -5,7 +5,7 @@ import PageTitle from "../components/PageTitle";
 import Footer from "../components/Footer";
 import PetLayout from "../components/PetLayout";
 
-import "../css/petLayout.css";
+import "../css/styles.css";
 
 const PetPage = () => {
 	return (

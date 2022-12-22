@@ -40,3 +40,574 @@ a {
 		opacity: 1;
 	}
 }
+
+/* Appointment.css start */
+
+.appointmentFormWrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+}
+
+h3 {
+	text-align: center;
+}
+
+.appointmentForm {
+	display: flex;
+	justify-content: center;
+	width: calc(700px - 2%);
+	padding: 1%;
+}
+
+.appointmentForm form {
+	width: calc(100% - 6%);
+	padding: 3%;
+}
+
+.appointmentForm form div {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+	width: calc(100% - 2%);
+	padding: 1%;
+	column-gap: 2rem;
+}
+
+.appointmentForm form span {
+	display: block;
+	max-width: inherit;
+	width: 250px;
+}
+
+.appointmentForm form input {
+	border: 1px solid #e1e1e6;
+	width: 100%;
+	height: 40px;
+	padding-left: 10px;
+	border-radius: 10px;
+}
+
+.appointmentForm form input[type="checkbox"] {
+	display: inline;
+	width: 20px;
+	vertical-align: middle;
+}
+
+.appointmentForm form select {
+	width: 100%;
+	height: 40px;
+	padding-left: 10px;
+}
+
+.appointmentForm form ul {
+	padding-left: 0;
+}
+
+/* buttons */
+.buttonWrapper {
+	width: calc(100% - 4%);
+	padding: 2%;
+}
+
+.buttonWrapper button {
+	color: #fff;
+	background-color: #008000;
+	width: calc(100% - 2%);
+	height: fit-content;
+	box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+	padding: 1%;
+	border: none;
+	border-radius: 10px;
+}
+
+/* buttons */
+.appointmentSchedWrapper {
+	width: calc(100% - 2px - 10%);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border: 1px solid #e1e1e6;
+	border-radius: 10px;
+	margin: 2% 5%;
+}
+
+/* schedule start */
+.scheduleWrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: calc(100%);
+	height: fit-content;
+	padding: 5% 0;
+	margin: 0;
+}
+
+.react-calendar {
+	border: 1px solid #e1e1e6;
+	border-radius: 10px;
+	border-right: none;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.react-calendar abbr[title] {
+	text-decoration: none;
+}
+
+.scheduleDetails {
+	width: 500px;
+	max-width: 100%;
+	height: 300px;
+	text-align: justify;
+	border: 1px solid #e1e1e6;
+	border-radius: 10px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	border-left: none;
+}
+
+@media only screen and (max-width: 800px) {
+	.react-calendar {
+		width: 100%;
+		border: none;
+		box-shadow: none;
+	}
+
+	.scheduleDetails {
+		width: 500px;
+		max-width: 100%;
+		height: 300px;
+		text-align: justify;
+		border: none;
+	}
+}
+
+.scheduleDetailsHeader {
+	display: flex;
+	justify-content: space-evenly;
+	width: calc(100% - 2%);
+	padding: 1%;
+}
+
+.scheduleDetails ul {
+	text-align: left;
+}
+
+/* legend start */
+.legend {
+	width: 200px;
+	height: fit-content;
+	font-size: small;
+}
+.legend ul {
+	display: inline-block;
+	width: 100%;
+	text-align: left;
+}
+.legend li {
+	width: 100%;
+}
+
+.legend .yellow,
+.legend .blue,
+.legend .gray {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background-color: #ffff76;
+	vertical-align: middle;
+}
+
+.legend .blue {
+	background-color: #1087ff;
+}
+
+.legend .gray {
+	background-color: #e6e6e6;
+}
+/* legend end */
+
+.faeyeslash:hover {
+	cursor: pointer;
+}
+
+/* schedule end*/
+/* Appointment.css start */
+
+/* Informatio.css start */
+.information {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	text-align: left;
+	font-size: 1.2rem;
+}
+
+.information .informationDetails {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	overflow: auto;
+}
+
+.information .informationDetails span.bullets {
+	display: inline-block;
+	background-color: #fff;
+	color: #6a1c1b;
+	box-shadow: 16px 8px 15px rgba(0, 0, 0, 0.1);
+	width: 25px;
+	padding: 1%;
+	text-align: center;
+
+	border-right: 2px solid rgba(161, 143, 143, 0.533);
+}
+
+.information .informationDetails section {
+	background-color: #fff;
+	color: #6a1c1b;
+	width: 100%;
+	font-size: 18px;
+	border-bottom: 2px dashed rgba(161, 143, 143, 0.533);
+}
+
+/* Information.css end */
+
+/* Profile.css start */
+.profileWrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: calc(100% - 2%);
+	height: fit-content;
+	overflow: hidden;
+	padding: 1%;
+}
+
+.leftProfileSide {
+	width: calc((400px - 2% - 2px));
+	height: fit-content;
+	padding: 1%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	flex-direction: column;
+	border: 1px solid #e1e1e6;
+}
+
+.avatar {
+	display: block;
+	width: 100%;
+	height: calc(200px - 1%);
+	padding-bottom: 1%;
+	text-align: center;
+	border-bottom: 1px solid #e1e1e6;
+}
+.avatar img {
+	width: 200px;
+	height: 200px;
+	object-fit: contain;
+}
+
+.profileInfo {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.profileInfo span.username {
+	display: block;
+	width: 100%;
+	margin-top: 5%;
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+.profileInfoList {
+	display: flex;
+	justify-content: center;
+	width: calc(100% - 2%);
+	padding: 1%;
+}
+
+.profileInfoList table {
+	text-align: justify;
+	border-spacing: 8px;
+}
+
+.rightProfileSide {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: flex-start;
+	max-width: 800px;
+	width: 800px;
+	overflow: hidden;
+}
+
+.upperProfileWrapper {
+	width: calc(100% - 6%);
+	height: calc(250px - 4%);
+	padding: 2%;
+	margin-left: 2%;
+	display: flex;
+	justify-content: flex-start;
+	column-gap: 1rem;
+	flex-direction: row;
+	overflow-x: auto;
+}
+
+.upperProfileWrapper .petImageWrapper {
+	text-align: center;
+}
+
+.upperProfileWrapper .petImageWrapper span {
+	display: block;
+	margin: 5%;
+}
+
+.upperProfileWrapper .petImage {
+	display: flex;
+	align-items: center;
+
+	width: calc(150px - 10px);
+	height: calc(150px - 10px);
+
+	border-radius: 50%;
+	border: 10px solid #6a1c1b;
+	text-align: center;
+	justify-content: center;
+	font-size: 2rem;
+	color: #6a1c1b;
+	transition: 0.3s;
+}
+
+.upperProfileWrapper .petImage img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.upperProfileWrapper .filled {
+	border-radius: 5px;
+}
+.upperProfileWrapper .petImage:hover {
+	cursor: pointer;
+}
+
+.lowerProfileSide {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	flex-direction: column;
+	width: calc(100% - 14%);
+	height: 100px;
+	padding: 5%;
+	margin: 0 2%;
+}
+
+.lowerProfileSide .lowerProfileSide-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: calc(100% - 2%);
+	padding: 1%;
+}
+
+/* Profile.css end */
+
+/* Login.css start */
+.loginWrapper {
+	width: calc(100%);
+	height: calc(100vh);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	overflow: hidden;
+}
+
+.loginForm {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.login_webName {
+	text-align: center;
+	color: #6a1c1b;
+}
+.login_webName b {
+	font-size: 5rem;
+}
+
+.login_webName span b {
+	font-size: 1.5rem;
+}
+
+.login_logo {
+	position: relative;
+	width: 150px;
+	height: 100px;
+	z-index: 1;
+}
+
+.login_logo img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.loginFormWrapper {
+	position: relative;
+	z-index: 0;
+	background-color: #6a1c1b;
+	width: calc(350px - 6%);
+	height: 300px;
+	padding: 3%;
+	text-align: left;
+	color: #fff;
+	border-radius: 25px;
+}
+
+.loginFormWrapper b {
+	display: block;
+	width: calc(100% - 10%);
+	padding: 2% 5%;
+	font-size: 1.2rem;
+}
+
+.loginForm form {
+	width: calc(100% - 6%);
+	padding: 3%;
+}
+
+.loginForm form input {
+	border: 1px solid #e1e1e6;
+	width: calc(100% - 10px - 2%);
+	height: 40px;
+	padding-left: 10px;
+	margin: 5% 1%;
+	border-radius: 25px;
+	background-color: rgba(184, 101, 95, 255);
+	border: none;
+}
+
+.loginForm form input::placeholder {
+	color: #fff;
+}
+
+.loginForm form button {
+	width: calc(100% - 2%);
+	height: fit-content;
+	padding: 3% 1%;
+	margin: 3% 1%;
+	background-color: rgba(184, 101, 95, 255);
+	color: #fff;
+	border: none;
+	font-size: 1rem;
+}
+
+.loginWrapper .cat_bg,
+.loginWrapper .dog_bg {
+	width: 300px;
+	height: 100vh;
+	background-position: bottom;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+/* Login.css end */
+
+/* PetLayout.css start */
+.petLayoutWrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.profile {
+	width: calc((400px - 2% - 2px));
+	height: fit-content;
+	padding: 1%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	flex-direction: column;
+	text-align: center;
+}
+.avatar {
+	display: block;
+	width: 100%;
+	height: calc(200px - 1%);
+	padding-bottom: 1%;
+	text-align: center;
+	border-bottom: 1px solid #e1e1e6;
+}
+.avatar img {
+	width: 200px;
+	height: 200px;
+	object-fit: contain;
+}
+
+.profileInfo {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.profileInfo span.username {
+	display: block;
+	width: 100%;
+	margin-top: 5%;
+	font-size: 1.2rem;
+	text-align: center;
+}
+.rightPetSide {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	max-width: calc(800px);
+	width: calc(800px);
+	overflow-x: hidden;
+}
+.petDetails {
+	width: calc(100% - 4%);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+
+	padding: 1%;
+	overflow-x: auto;
+}
+
+.petDetails b {
+	margin: 1%;
+	border-bottom: 1px solid #e1e1e6;
+}
+.petDetails table {
+	width: calc(100% - 62px);
+	border-spacing: 12px;
+	text-align: center;
+}
+
+.petDetails .border-right {
+	padding-right: 5px;
+	border-right: 1px dashed #e1e1e6;
+}
+
+/* PetLayout.css end */

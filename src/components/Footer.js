@@ -2,8 +2,6 @@ import React from "react";
 import { FaMapMarkerAlt, FaPhone, FaFacebook } from "react-icons/fa";
 import logo from "../img/logo_withColor.png";
 
-import "../css/home.css";
-
 const Footer = () => {
 	return (
 		<footer>
