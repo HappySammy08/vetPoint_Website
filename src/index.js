@@ -37,16 +37,13 @@ import { BrowserRouter, Route } from "react-router-dom";
 // const root = ReactDOM.createRoot(document.getElementById("root"));
 // root.render(<RouterProvider router={router} />);
 
-ReactDOM.render(
-	<BrowserRouter>
-		<Route path="/" component={App} />
-		<Route path="/login" component={LoginPage} />
-		<Route path="/appointmentForm" component={AppointmentForm} />
-		<Route path="/profilePage" component={ProfilePage} />
-		<Route path="/petpage" component={PetPage} />
-	</BrowserRouter>,
-	document.getElementById("root")
-);
+<BrowserRouter basename={process.env.PUBLIC_URL}>
+	<Route path="/" component={App} />
+	<Route path="/login" component={LoginPage} />
+	<Route path="/appointmentForm" component={AppointmentForm} />
+	<Route path="/profilePage" component={ProfilePage} />
+	<Route path="/petpage" component={PetPage} />
+</BrowserRouter>;
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
