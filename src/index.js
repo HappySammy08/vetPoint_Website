@@ -10,17 +10,17 @@ import AppointmentForm from "./pages/AppointmentForm";
 import ProfilePage from "./pages/ProfilePage";
 import PetPage from "./pages/PetPage";
 
-import { BrowserRouter, Route } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-	<BrowserRouter basename={process.env.PUBLIC_URL}>
+	<HashRouter>
 		<Route path="/" component={App} />
 		<Route path="/login" component={LoginPage} />
 		<Route path="/appointmentForm" component={AppointmentForm} />
 		<Route path="/profilePage" component={ProfilePage} />
 		<Route path="/petpage" component={PetPage} />
-	</BrowserRouter>
+	</HashRouter>
 );
 
 // root.render(
