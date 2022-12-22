@@ -22,7 +22,7 @@ function App() {
 			<Footer />
 			<Routes>
 				<Route exact path="/">
-					<App />
+					<ProfilePage />
 				</Route>
 				<Route path="/login">
 					<LoginPage />
