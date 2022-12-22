@@ -1,14 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+
+import reportWebVitals from "./reportWebVitals";
+
 import "./index.css";
 import App from "./App";
-import reportWebVitals from "./reportWebVitals";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
 import LoginPage from "./pages/LoginPage";
 import AppointmentForm from "./pages/AppointmentForm";
 import ProfilePage from "./pages/ProfilePage";
 import PetPage from "./pages/PetPage";
+
+import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
 
 const router = createBrowserRouter([
 	{
@@ -23,7 +25,10 @@ const router = createBrowserRouter([
 		path: "/login",
 		element: <LoginPage />,
 	},
-	{ path: "/profilepage", element: <ProfilePage /> },
+	{
+		path: "/profilepage",
+		element: <ProfilePage />,
+	},
 	{
 		path: "/petpage",
 		element: <PetPage />,
