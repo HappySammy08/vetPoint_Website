@@ -15,11 +15,29 @@ import { Route, Routes, Link } from "react-router-dom";
 function App() {
 	return (
 		<div className="App">
-			<Header />
-			<Features />
-			<Services />
-			<About />
-			<Footer />
+			<div>
+				<nav>
+					<ul id="navigation">
+						<li>
+							<Link to="/">Home</Link>
+						</li>
+						<li>
+							<Link to="/about">About</Link>
+						</li>
+						<li>
+							<Link to="/contact">Contact</Link>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<Routes>
+				<Route exact path="/">
+					<LoginPage />
+				</Route>
+				<Route path="/about">
+					<ProfilePage />
+				</Route>
+			</Routes>
 		</div>
 	);
 }
