@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vetpoint_Website/static/css/main.4827f4c7.css",
-    "main.js": "/vetpoint_Website/static/js/main.264d97c0.js",
+    "main.js": "/vetpoint_Website/static/js/main.4b7964cb.js",
     "static/js/787.28cb0dcd.chunk.js": "/vetpoint_Website/static/js/787.28cb0dcd.chunk.js",
     "static/media/logo_withColor.png": "/vetpoint_Website/static/media/logo_withColor.c41b1ef7eaba1cdccc23.png",
     "static/media/web_banner.jpg": "/vetpoint_Website/static/media/web_banner.a55ffce058a5d7b45948.jpg",
@@ -17,11 +17,11 @@
     "static/media/avatar_example.png": "/vetpoint_Website/static/media/avatar_example.f57c44783d48f62d546c.png",
     "index.html": "/vetpoint_Website/index.html",
     "main.4827f4c7.css.map": "/vetpoint_Website/static/css/main.4827f4c7.css.map",
-    "main.264d97c0.js.map": "/vetpoint_Website/static/js/main.264d97c0.js.map",
+    "main.4b7964cb.js.map": "/vetpoint_Website/static/js/main.4b7964cb.js.map",
     "787.28cb0dcd.chunk.js.map": "/vetpoint_Website/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4827f4c7.css",
-    "static/js/main.264d97c0.js"
+    "static/js/main.4b7964cb.js"
   ]
 }
