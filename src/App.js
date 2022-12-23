@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 import LoginPage from "./pages/LoginPage";
 import ProfilePage from "./pages/ProfilePage";
 
-import "../css/home.css";
+import "./css/home.css";
 
 import React from "react";
 import { Route, Routes, Link } from "react-router-dom";
@@ -24,9 +24,6 @@ function App() {
 						</li>
 						<li>
 							<Link to="/about">About</Link>
-						</li>
-						<li>
-							<Link to="/contact">Contact</Link>
 						</li>
 					</ul>
 				</nav>
