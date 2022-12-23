@@ -446,14 +446,16 @@ h3 {
 }
 .login_webName {
 	text-align: center;
-	color: #6a1c1b;
 }
 .login_webName b {
-	font-size: 5rem;
+	font-size: 3rem;
+	font-family: vetPoint_font, Verdana, Geneva, Tahoma, sans-serif;
+	color: #6a1c1b;
 }
 
 .login_webName span b {
 	font-size: 1.5rem;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .login_logo {

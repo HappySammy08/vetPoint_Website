@@ -1,5 +1,6 @@
 import React from "react";
 import { FaPlus } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 import avatarSample from "../img/avatar_example.png";
 
@@ -36,11 +37,11 @@ const Profile = () => {
 			<div className="rightProfileSide">
 				<div className="upperProfileWrapper">
 					<div className="petImageWrapper">
-						<a href="/petpage">
+						<Link to="/petpage">
 							<div className="petImage filled">
 								<img src={dog_sample}></img>
 							</div>
-						</a>
+						</Link>
 						<span className="petName">Name</span>
 					</div>
 					<div className="petImageWrapper">

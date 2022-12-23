@@ -6,10 +6,8 @@ import Footer from "../components/Footer";
 const ProfilePage = () => {
 	return (
 		<div>
-			<Navigation />
 			<PageTitle title="User Profile" />
 			<Profile />
-			<Footer />
 		</div>
 	);
 };

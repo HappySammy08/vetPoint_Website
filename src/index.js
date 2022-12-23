@@ -13,8 +13,7 @@ root.render(
 		<HashRouter>
 			<App />
 		</HashRouter>
-	</React.StrictMode>,
-	document.getElementById("root")
+	</React.StrictMode>
 );
 // const root = ReactDOM.createRoot(document.getElementById("root"));
 // root.render(

@@ -1,11 +1,10 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import poster1 from "../img/1.jpg";
 import poster2 from "../img/2.jpg";
 import poster3 from "../img/3.jpg";
-
-const Services = () => {
+const Service = forwardRef((props, ref) => {
 	return (
-		<div className="service">
+		<div ref={ref} className="service" id="service">
 			<div className="clinicServices">
 				<div className="serviceHeader">
 					<hr />
@@ -38,6 +37,6 @@ const Services = () => {
 			</div>
 		</div>
 	);
-};
+});
 
-export default Services;
+export default Service;

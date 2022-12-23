@@ -1,6 +1,8 @@
 import React from "react";
-import Navigation from "../components/Navigation";
 import Login from "../components/Login";
+import ProfilePage from "./ProfilePage";
+import Profile from "../components/Profile";
+import { Route, Routes, Link } from "react-router-dom";
 
 const LoginPage = () => {
 	return (

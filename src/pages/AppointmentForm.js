@@ -7,10 +7,8 @@ import Footer from "../components/Footer";
 const AppointmentForm = () => {
 	return (
 		<div>
-			<Navigation />
 			<PageTitle title="Animal Clinic Appointment Form" />
 			<Form />
-			<Footer />
 		</div>
 	);
 };

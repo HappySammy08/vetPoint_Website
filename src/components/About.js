@@ -1,9 +1,9 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import aboutImg from "../img/service.jpg";
 
-const About = () => {
+const About = forwardRef((props, ref) => {
 	return (
-		<div className="about">
+		<div ref={ref} className="about" id="about">
 			<div className="aboutHeader">
 				<hr />
 				<b>About us</b>
@@ -26,6 +26,6 @@ const About = () => {
 			</div>
 		</div>
 	);
-};
+});
 
 export default About;

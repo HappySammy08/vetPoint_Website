@@ -39,9 +39,9 @@ const Login = () => {
 							placeholder="Password"
 						></input>
 
-						<button type="submit">
-							<Link to="/profilepage">Sign In</Link>
-						</button>
+						<Link to="/profile">
+							<button type="submit">Sign in</button>
+						</Link>
 					</form>
 				</div>
 			</div>

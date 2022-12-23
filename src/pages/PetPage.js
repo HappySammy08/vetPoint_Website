@@ -8,10 +8,8 @@ import PetLayout from "../components/PetLayout";
 const PetPage = () => {
 	return (
 		<div>
-			<Navigation />
 			<PageTitle title="Hachiko" />
 			<PetLayout />
-			<Footer />
 		</div>
 	);
 };

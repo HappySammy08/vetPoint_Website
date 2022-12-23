@@ -1,12 +1,10 @@
 // image
 import banner from "../img/web_banner.jpg";
-
 import React from "react";
-import Navigation from "./Navigation";
-const Header = () => {
+
+const Banner = () => {
 	return (
 		<header>
-			<Navigation />
 			<div className="lowerHeader">
 				<div className="banner" style={{ backgroundImage: `url(${banner})` }}>
 					<div className="welcome">
@@ -26,4 +24,4 @@ const Header = () => {
 		</header>
 	);
 };
-export default Header;
+export default Banner;

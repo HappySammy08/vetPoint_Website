@@ -1,10 +1,20 @@
-import React from "react";
+import React, { useEffect, useLocation } from "react";
 import logo from "../img/logo_withColor.png";
+import { FaUserCircle } from "react-icons/fa";
 
-const Navigation = () => {
+import { Link, NavLink } from "react-router-dom";
+
+let isUserLoggedIn = false;
+
+const Navigation = ({ refs }) => {
+	const scrollSmoothHandler = (ref) => {
+		console.log(ref);
+		ref.current.scrollIntoView({ behavior: "smooth" });
+	};
+
 	return (
 		<nav>
-			<a href="/">
+			<Link to="/">
 				{" "}
 				<div className="leftSide">
 					<img src={logo} alt="VetPoint_Logo" />
@@ -15,22 +25,61 @@ const Navigation = () => {
 						<span className="lower_logoName">CVMBS Animal Clinic</span>
 					</div>
 				</div>
-			</a>
+			</Link>
 			<div className="middleSide">
 				<ul>
-					<li>Services</li>
-					<li>About us</li>
-					<li>Contacts</li>
-					<li>User</li>
+					<NavLink
+						onClick={() => {
+							setTimeout(() => {
+								scrollSmoothHandler(refs.featuresRef);
+							}, 1000);
+						}}
+					>
+						<li>
+							<span>Contacts</span>
+						</li>
+					</NavLink>
+					<NavLink
+						onClick={() => {
+							setTimeout(() => {
+								scrollSmoothHandler(refs.serviceRef);
+							}, 1000);
+						}}
+					>
+						<li>
+							<span>Services</span>
+						</li>
+					</NavLink>
+					<NavLink
+						onClick={() => {
+							setTimeout(() => {
+								scrollSmoothHandler(refs.aboutRef);
+							}, 1000);
+						}}
+					>
+						<li>
+							<span>About us</span>
+						</li>
+					</NavLink>
 				</ul>
 			</div>
 			<div className="rightSide">
-				<a href="/login">
-					<button>Login</button>
-				</a>
-				<a href="/appointmentForm">
-					<button>Request Appointment</button>
-				</a>
+				{isUserLoggedIn ? (
+					<div className="userLogo">
+						{" "}
+						<FaUserCircle />{" "}
+					</div>
+				) : (
+					<div className="rightSideBtns">
+						<Link to="/login">
+							{" "}
+							<button>Login</button>
+						</Link>
+						<Link to="/appointmentform">
+							<button>Request Appointment</button>
+						</Link>
+					</div>
+				)}
 			</div>
 		</nav>
 	);

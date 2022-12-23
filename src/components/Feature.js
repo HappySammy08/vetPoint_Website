@@ -1,4 +1,4 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import SimpleImageSlider from "react-simple-image-slider";
 
 import { FaMapMarkerAlt, FaPhone, FaMailBulk } from "react-icons/fa";
@@ -7,10 +7,9 @@ import poster_1 from "../img/poster_1.jpg";
 import poster_2 from "../img/poster_2.jpg";
 
 const images = [{ url: poster_1 }, { url: poster_2 }];
-
-const Features = () => {
+const Feature = forwardRef((props, ref) => {
 	return (
-		<div className="features">
+		<div ref={ref} className="features" id="features">
 			<div className="featureHeader">
 				<hr />
 				<b>Look</b>
@@ -63,5 +62,6 @@ const Features = () => {
 			</div>
 		</div>
 	);
-};
-export default Features;
+});
+
+export default Feature;
