@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/vetpoint_Website/static/css/main.c38b3005.css",
-    "main.js": "/vetpoint_Website/static/js/main.e734ad4e.js",
+    "main.css": "/vetpoint_Website/static/css/main.4827f4c7.css",
+    "main.js": "/vetpoint_Website/static/js/main.264d97c0.js",
     "static/js/787.28cb0dcd.chunk.js": "/vetpoint_Website/static/js/787.28cb0dcd.chunk.js",
     "static/media/logo_withColor.png": "/vetpoint_Website/static/media/logo_withColor.c41b1ef7eaba1cdccc23.png",
     "static/media/web_banner.jpg": "/vetpoint_Website/static/media/web_banner.a55ffce058a5d7b45948.jpg",
     "static/media/cat_bg.png": "/vetpoint_Website/static/media/cat_bg.05884997e2c2eec00af5.png",
-    "static/media/service.jpg": "/vetpoint_Website/static/media/service.52c2f8a5df42cf261fe5.jpg",
     "static/media/dog_bg.png": "/vetpoint_Website/static/media/dog_bg.8475fc2c8daf8d196aea.png",
     "static/media/amsterdam-three-slant.ttf": "/vetpoint_Website/static/media/amsterdam-three-slant.aff3668ed8b17ca911ed.ttf",
     "static/media/dog.png": "/vetpoint_Website/static/media/dog.9a5aaf6f95a5f1cf411c.png",
@@ -17,12 +16,12 @@
     "static/media/poster_1.jpg": "/vetpoint_Website/static/media/poster_1.bc366dec4f2cffc01fe6.jpg",
     "static/media/avatar_example.png": "/vetpoint_Website/static/media/avatar_example.f57c44783d48f62d546c.png",
     "index.html": "/vetpoint_Website/index.html",
-    "main.c38b3005.css.map": "/vetpoint_Website/static/css/main.c38b3005.css.map",
-    "main.e734ad4e.js.map": "/vetpoint_Website/static/js/main.e734ad4e.js.map",
+    "main.4827f4c7.css.map": "/vetpoint_Website/static/css/main.4827f4c7.css.map",
+    "main.264d97c0.js.map": "/vetpoint_Website/static/js/main.264d97c0.js.map",
     "787.28cb0dcd.chunk.js.map": "/vetpoint_Website/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c38b3005.css",
-    "static/js/main.e734ad4e.js"
+    "static/css/main.4827f4c7.css",
+    "static/js/main.264d97c0.js"
   ]
 }
